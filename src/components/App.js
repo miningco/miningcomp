@@ -17,7 +17,7 @@ import './app.css';
 // const dataProvider = jsonServerProvider('http://jsonplaceholder.typicode.com');
 const App = () => (
     <Admin
-        title="Mining Tracker"
+        title="OroMining Tracker"
         dashboard={Dashboard}
         dataProvider={DataProvider}
       >
