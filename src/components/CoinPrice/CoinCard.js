@@ -21,8 +21,7 @@ const CoinCard = ({
             <span style={moneySymbol}>$</span>
             {price_usd} USD
           </p>
-          <p style={coinSymbol}>Current Price from CoinMarketCap.com</p>
-
+          <a href="https://coinmarketcap.com/currencies/ethereum/">Current Price from CoinMarketCap.com</a>
         </div>
         <div className="card-statistics" style={{display: display}}>
           <p

@@ -7,7 +7,6 @@ import { PayoutList } from './Payouts';
 import { WorkerList } from './Workers';
 import { HistoryList } from './History';
 import Dashboard from './Dashboard';
-import AuthProvider from './AuthProvider';
 import DataProvider from './DataProvider';
 import PostIcon from '@material-ui/icons/Book';
 import UserIcon from '@material-ui/icons/Group';
@@ -20,7 +19,6 @@ const App = () => (
     <Admin
         title="Mining Tracker"
         dashboard={Dashboard}
-        authProvider={AuthProvider}
         dataProvider={DataProvider}
       >
         {/* <Resource name="posts" list={PostList} icon={PostIcon} />
